@@ -1,0 +1,77 @@
+.navbar {
+    background-color:#FE661D;
+}
+.nav-link{
+    color:white;
+}
+.firstRing {
+    background-color: white;
+    border: 6px solid #FE661D;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 3px 3px 3px #ffcdb5;
+}
+
+.secondRing {
+    background-color: white;
+    border: 12px solid #FFFF00;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 6px 6px 6px #ffff99;
+}
+
+.audi1 {
+    background-color: white;
+    border: 6px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 3px 3px 3px #4d4d4d;
+}
+
+.audi2 {
+    background-color: white;
+    border: 12px solid black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 6px 6px 6px #4d4d4d;
+}
+
+.audi3 {
+    background-color: white;
+    border: 18px solid black;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 9px 9px 9px #4d4d4d;
+}
+
+.audi4 {
+    background-color: white;
+    border: 24px solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 12px 12px 12px #4d4d4d;
+}
+
+.audi5 {
+    background-color: white;
+    border: 30px solid black;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    box-shadow: 15px 15px 15px #4d4d4d;
+}
+
+.audi6 {
+    background-color: white;
+    border: 36px solid black;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 18px 18px 18px #4d4d4d;
+}

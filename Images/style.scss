@@ -1,0 +1,25 @@
+@mixin Ring($borderwidth, $width, $bordercolor: black) {
+  background-color:white;
+  border: $borderwidth solid $bordercolor;
+  border-radius:50%;
+  width: $width;
+  height:$width;
+  box-shadow : $borderwidth/2 $borderwidth/2 $borderwidth/2 lighten($bordercolor, 30);
+}
+
+
+
+
+.firstRing{
+  @include Ring(6px,50px, #FE661D);
+}
+
+.secondRing{
+  @include Ring(12px,200px,#FFFF00);
+}
+
+@for $i from 1 through 6 {
+  .audi#{$i} {
+    @include Ring(6px*$i,50px*$i)
+  }
+}
