@@ -1,12 +1,11 @@
 @mixin Ring($borderwidth, $width, $bordercolor: black) {
-  background-color:white;
+  background-color:transparent;
   border: $borderwidth solid $bordercolor;
   border-radius:50%;
   width: $width;
   height:$width;
   box-shadow : $borderwidth/2 $borderwidth/2 $borderwidth/2 lighten($bordercolor, 30);
 }
-
 
 
 
@@ -18,8 +17,10 @@
   @include Ring(12px,200px,#FFFF00);
 }
 
+
 @for $i from 1 through 6 {
   .audi#{$i} {
-    @include Ring(6px*$i,50px*$i)
+    @include Ring(6px*$i,20px*$i);
+    margin-right:-200px/$i;
   }
 }
